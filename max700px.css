@@ -1,0 +1,27 @@
+.profile {
+    justify-content: center;
+
+    padding: 20px;
+    width: unset;
+    max-width: 600px;
+}
+.profile__image {
+    flex-basis: 150px;
+    
+    width: 150px;
+    height: 150px;
+}
+
+.profile__image img {
+    object-position: center 60%;
+}
+
+.technologies {
+    grid-template: 100px / repeat(auto-fit, minmax(1px, 100px));
+    grid-auto-rows: 100px;
+    justify-content: center;
+    
+    padding: 20px;
+
+    overflow: unset;
+}
