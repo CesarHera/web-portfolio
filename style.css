@@ -140,11 +140,13 @@ img {
     border-radius: 10px;    
 }
 
-
+/* Non proportional images */
+.projects__project__desktop--react-weather {
+    width: calc(100% - (141.6px + 10px)); /* calc(100% - (mobileImageWidth + grid-gap)) */
+}
 .projects__project__desktop--dark-google {
     width: calc(100% - (149.5px + 10px)); /* calc(100% - (mobileImageWidth + grid-gap)) */
 }
-
 .projects__project__desktop--classic-google {
     width: calc(100% - (139.53px + 10px)); /* calc(100% - (mobileImageWidth + grid-gap)) */
 }

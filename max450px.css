@@ -46,10 +46,13 @@
     height: 100%;
 }
 
+/* Non proportional images */
+.projects__project__desktop--react-weather {
+    width: calc(100% - (95.02px + 5px)); /* calc(100% - (mobileImageWidth + grid-gap)) */
+}
 .projects__project__desktop--dark-google {
     width: calc(100% - (100.31px + 5px)); /* calc(100% - (mobileImageWidth + grid-gap)) */
 }
-
 .projects__project__desktop--classic-google {
     width: calc(100% - (93.63px + 5px)); /* calc(100% - (mobileImageWidth + grid-gap)) */
 }
